@@ -319,6 +319,17 @@ strong {
     font-weight: 600;
 }
 
+.post-title-link {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-title-link:hover {
+    color: #81D8D0;
+    text-decoration: underline;
+}
+
 .post-meta {
     display: flex;
     gap: 1rem;
