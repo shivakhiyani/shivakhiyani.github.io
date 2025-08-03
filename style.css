@@ -433,6 +433,43 @@ strong {
     text-decoration: underline;
 }
 
+.video-link {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: rgba(129, 216, 208, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(129, 216, 208, 0.2);
+    text-align: center;
+}
+
+.video-link h4 {
+    color: #81D8D0;
+    margin-bottom: 1rem;
+}
+
+.video-link p {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.video-link-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #81D8D0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(129, 216, 208, 0.3);
+}
+
+.video-link-button:hover {
+    background: #5BA3D4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(129, 216, 208, 0.4);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-container {
