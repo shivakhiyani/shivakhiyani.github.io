@@ -8,81 +8,72 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header id="header">
-        <div class="profile-container">
-            <img src="images/profile photo.jpg" alt="Shiva Khiyani" class="profile-photo" />
+    <!-- Navigation Tabs -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-tabs">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <h1>Shiva Khiyani</h1>
-        <p>Marine Engineer turned Crypto Data Builder</p>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A self-driven technologist with a journey that spans from assembling computers and working aboard ships as a marine engineer, 
-        to mastering data systems and building crypto data products. Passionate about decentralization, I bring 3+ years of experience 
-        in the digital asset space—creating robust data pipelines, automating analytics, and delivering insights on market structure and 
-        blockchain dynamics.</p>
-    </section>
-    
-    <section id="journey">
-        <h2>My Journey</h2>
-        
-        <div class="journey-image-container">
-            <div class="journey-image">
-                <img src="images/ship-realistic.svg" alt="Marine Engineering" />
-                <p class="image-caption">Marine Engineering</p>
-            </div>
-            <div class="journey-image">
-                <img src="images/crypto-insights.svg" alt="Crypto Data Analytics" />
-                <p class="image-caption">Crypto Data Analytics</p>
-            </div>
-        </div>
-        
-        <p>I started by taking apart computers as a teenager — not always knowing how to put them back together, but always curious about how things worked. That same mindset led me to the high seas, where I worked as a marine engineer keeping massive ship engines running across oceans.</p>
-        
-        <p>But beneath the engine grease, my interest in systems — especially decentralized ones — kept growing. I discovered Bitcoin in its early days and was fascinated not just by the asset, but by the architecture. That rabbit hole led to trading, investing, and eventually a complete pivot: I began studying computer science, data systems, and blockchain technology.</p>
-        
-        <p>Over the last few years, I've transitioned fully into tech, working as a crypto data engineer building pipelines that power digital asset analytics. From building ETL flows for real-time exchange data to designing dashboards tracking liquidity, I now work at the intersection of markets and infrastructure.</p>
-        
-        <p>I still love complexity — whether it's mechanical or mathematical — but today, the engine rooms I work on live in code, APIs, and blockchains.</p>
-    </section>
-    <section id="experience">
-        <h2>Experience Highlights</h2>
-        <ul>
-            <li><strong>Senior Data Specialist @ Lukka Inc</strong><br>
-            - Built real-time market data ingestion pipelines using Python and Spark<br>
-            - Developed dashboards using Apache Superset</li>
-            <li><strong>Crypto Investor & Analyst</strong><br>
-            - Researched DeFi, DAOs, staking, tokenomics<br>
-            - Analyzed on-chain trends and market structure</li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Python, SQL, Spark, Superset, Kafka, Docker, Kubernetes, GitLab, Data Engineering, DeFi Research, ML, AWS</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Crypto Research & Investment</strong><br>
-                - Researched DeFi protocols, staking, liquidity pools, and DAOs.<br>
-                - Applied blockchain knowledge to evaluate tokens and market trends.
-            </li>
-            <li><strong>Topic Modeling & Text Summarization</strong><br>
-                - Built LDA-based topic model and summarizer on text corpora.<br>
-                - Used ElasticSearch and Kibana to visualize insights.
-            </li>
-            <li><strong>Recommender System</strong><br>
-                - Created collaborative filtering model to recommend movies.<br>
-                - Optimized using KNN and reduced RMSE by 20%.
-            </li>
-        </ul>
-    </section>
+    </nav>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:khiyani.s@northeastern.edu">khiyani.s@northeastern.edu</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/shivakhiyani" target="_blank">shivakhiyani</a></p>
-    </section>
+    <div class="main-container">
+        <!-- Sidebar with Profile -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img src="images/profile photo.jpg" alt="Shiva Khiyani" class="profile-photo" />
+                <h1>Shiva Khiyani</h1>
+                <p class="title">Marine Engineer turned Crypto Data Builder</p>
+                
+                <div class="social-links">
+                    <h3>Follow</h3>
+                    <ul>
+                        <li><a href="https://github.com/shivakhiyani" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/shivakhiyani" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/shivakhiyani" target="_blank">Twitter</a></li>
+                        <li><a href="mailto:khiyani.s@northeastern.edu">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>A self-driven technologist with a journey that spans from assembling computers and working aboard ships as a marine engineer, 
+                to mastering data systems and building crypto data products. Passionate about decentralization, I bring 3+ years of experience 
+                in the digital asset space—creating robust data pipelines, automating analytics, and delivering insights on market structure and 
+                blockchain dynamics.</p>
+            </section>
+            
+            <section id="journey">
+                <h2>My Journey</h2>
+                
+                <div class="journey-image-container">
+                    <div class="journey-image">
+                        <img src="images/ship-realistic.svg" alt="Marine Engineering" />
+                        <p class="image-caption">Marine Engineering</p>
+                    </div>
+                    <div class="journey-image">
+                        <img src="images/crypto-insights.svg" alt="Crypto Data Analytics" />
+                        <p class="image-caption">Crypto Data Analytics</p>
+                    </div>
+                </div>
+                
+                <p>I started by taking apart computers as a teenager — not always knowing how to put them back together, but always curious about how things worked. That same mindset led me to the high seas, where I worked as a marine engineer keeping massive ship engines running across oceans.</p>
+                
+                <p>But beneath the engine grease, my interest in systems — especially decentralized ones — kept growing. I discovered Bitcoin in its early days and was fascinated not just by the asset, but by the architecture. That rabbit hole led to trading, investing, and eventually a complete pivot: I began studying computer science, data systems, and blockchain technology.</p>
+                
+                <p>Over the last few years, I've transitioned fully into tech, working as a crypto data engineer building pipelines that power digital asset analytics. From building ETL flows for real-time exchange data to designing dashboards tracking liquidity, I now work at the intersection of markets and infrastructure.</p>
+                
+                <p>I still love complexity — whether it's mechanical or mathematical — but today, the engine rooms I work on live in code, APIs, and blockchains.</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
