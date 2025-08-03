@@ -167,6 +167,9 @@ header {
     box-shadow: 0 8px 25px rgba(129, 216, 208, 0.3);
     transition: all 0.3s ease;
     margin: 0 auto;
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .profile-photo:hover {
@@ -254,6 +257,7 @@ section {
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    will-change: transform;
 }
 
 .journey-image img:hover {
