@@ -1,0 +1,27 @@
+<svg width="200" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="120" fill="#f3e5f5"/>
+  
+  <!-- Chart bars -->
+  <rect x="30" y="80" width="15" height="30" fill="#9c27b0"/>
+  <rect x="55" y="70" width="15" height="40" fill="#673ab7"/>
+  <rect x="80" y="60" width="15" height="50" fill="#3f51b5"/>
+  <rect x="105" y="75" width="15" height="35" fill="#2196f3"/>
+  <rect x="130" y="50" width="15" height="60" fill="#00bcd4"/>
+  <rect x="155" y="65" width="15" height="45" fill="#4caf50"/>
+  
+  <!-- Bitcoin symbol -->
+  <circle cx="100" cy="25" r="15" fill="#ff9800"/>
+  <text x="100" y="30" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">₿</text>
+  
+  <!-- Data points -->
+  <circle cx="40" cy="75" r="2" fill="#e91e63"/>
+  <circle cx="65" cy="65" r="2" fill="#e91e63"/>
+  <circle cx="90" cy="55" r="2" fill="#e91e63"/>
+  <circle cx="115" cy="70" r="2" fill="#e91e63"/>
+  <circle cx="140" cy="45" r="2" fill="#e91e63"/>
+  <circle cx="165" cy="60" r="2" fill="#e91e63"/>
+  
+  <!-- Connection lines -->
+  <path d="M40 75 L65 65 L90 55 L115 70 L140 45 L165 60" stroke="#e91e63" stroke-width="1" fill="none"/>
+</svg> 
