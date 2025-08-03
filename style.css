@@ -470,6 +470,24 @@ strong {
     box-shadow: 0 4px 12px rgba(129, 216, 208, 0.4);
 }
 
+.blog-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.blog-logo img {
+    width: 120px;
+    height: auto;
+}
+
+#blog-post {
+    position: relative;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-container {
