@@ -23,4 +23,11 @@ a {
 section {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+#journey p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
 }
